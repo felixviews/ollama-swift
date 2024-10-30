@@ -7,6 +7,7 @@ let package = Package(
     name: "Ollama",
     platforms: [
         .macOS(.v13)
+        .visionOS(.v2)
     ],
     products: [
         .library(
